@@ -5,7 +5,7 @@ let currentRoundNumber = 0;
 // Write your code below:
 /* generate a rendom number between 0-9*/
 function generateTarget(){
-    return Math.floor(Math.random()*9);
+    return Math.floor(Math.random()*10);
 }
 
 function getAbsoluteDistance(num1,num2){
